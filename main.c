@@ -17,7 +17,7 @@ int main() {
 			input();
 			break;
 		case 2:
-			display();
+			show();
 			break;
 		case 3:
 			search();
@@ -38,8 +38,7 @@ int main() {
 			printf("输入错误，请重新输入！\n");
 			system("pause");
 			break;
-		}
-
+		};
 	}
 	return 0;
 }

@@ -1,4 +1,5 @@
 #pragma once
+#define _CRT_SECURE_NO_WARNINGS
 #define FORMAT "%-10s%-15s%-20s%-30s\n" 
 // 格式化输出
 #define DATA contacts[i].name,contacts[i].phone,contacts[i].address,contacts[i].email
