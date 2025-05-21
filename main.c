@@ -29,11 +29,11 @@ int main() {
 			del();
 			break;
 		case 6:
-			end_meau();
-			return 0;
-		case 7:
 			set();
 			break;
+		case 7:
+			end_meau();
+			return 0;
 		default:
 			printf("输入错误，请重新输入！\n");
 			system("pause");

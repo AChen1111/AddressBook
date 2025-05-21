@@ -56,6 +56,4 @@ void sort()
 
 	}
 	fclose(fp);
-	printf("еепРмЙЁи\n");
-
 } 

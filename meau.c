@@ -14,19 +14,17 @@ void start()
 }
 void start_meau()
 {
-	    //Sleep(1000);
 	    system("cls");
         printf("========================================\n");
         printf("||       Welcome to Address Book      ||\n");
         printf("========================================\n");
-        printf("||          [0]. 使用说明             ||\n");
         printf("||          [1]. 新增                 ||\n");
         printf("||          [2]. 列表                 ||\n");
         printf("||          [3]. 搜索                 ||\n");
         printf("||          [4]. 编辑                 ||\n");
         printf("||          [5]. 删除                 ||\n");
-        printf("||          [6]. 退出                 ||\n");
-        printf("||          [7]. 设置                 ||\n");
+        printf("||          [6]. 特殊功能             ||\n");
+		printf("||          [7]. 退出                 ||\n");
         printf("========================================\n");
         printf("请选择一个选项: ");
 }
@@ -49,13 +47,14 @@ void end_meau()
         system("color 0c");
         putchar('\n');
     }
+	//打印爱心
 	printf("\n谢谢使用！\n");
 	system("pause");
 }
 void set()
 {
 	system("cls");
-	printf("请选择设置选项：\n");
+	printf("请选择选项：\n");
 	printf("1.改变字体颜色\n");
 	printf("2.显示日期\n");
 	printf("3.访问项目仓库\n");
@@ -73,11 +72,7 @@ void set()
 	case 3:
 		visit_web();
 		break;
-	case 4:
-		
-		break;
-	case 5:
-		
+	default:
 		break;
 	}
 }

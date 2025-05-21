@@ -12,4 +12,4 @@ typedef struct Contact {
     char address[100];   // 地址
     char email[50];      // 电子邮箱
 } Contact;
-Contact contacts[100]; // 联系人数组
+Contact contacts[500];// 联系人数组
